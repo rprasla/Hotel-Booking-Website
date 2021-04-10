@@ -7,11 +7,24 @@
 </head>
 <body>
     <header>
-        <img src="assests/images/logo.png" alt="logo" height="200" width="150">
+        <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200" width="150"></a>
         <span><a href="login.html" target="_blank">Login</a></span>
     </header>
     <div class="content">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+        <form action="payment.html" method="POST">
+            <label for="adult">Adults</label>
+            <input type="number" name="adult" id="adult" required min="1"><br>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br>
+            <label for="fromDate">From Date: </label>
+            <input type="date" id="fromDate" name="fromDate" required><br>
+            <label for="fromDate">To Date: </label>
+            <input type="date" id="toDate" name="toDate" required><br>
+            <label for="Total">Total: </label>
+            <input type="total" id="total" name="total" disabled><br>
+            <input type="submit" value="Book Now">
+        </form>
         <p><a href="payment.html">Book Now</a></p>
         <h2>Radison Blu Hotel</h2>
         <h4>RATING</h4>
@@ -29,7 +42,7 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
     </div>
     <footer>
-        <p>Contact Us</p>
+        <a href="contact.html">Contact Us</a>
         <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" width="22" height="20"></a>
         <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" width="22" height="20"></a>
         <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" width="22" height="20"></a>
