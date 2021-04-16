@@ -1,9 +1,32 @@
 .content img {
   height: 150px;
   width: 150px;
+  padding: 4%;
+  border-radius: 25%;
+}
+.cards {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 footer img {
   height: 20px;
   width: 22px;
+}
+body {
+  margin: 0;
+  background-color: #e0e0e0;
+}
+header {
+  background-color: rosybrown;
+}
+footer {
+  background-color: rosybrown;
+}
+.content form {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
