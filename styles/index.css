@@ -7,6 +7,7 @@
 .cards {
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 10%;
 }
 
 footer img {
@@ -19,9 +20,39 @@ body {
 }
 header {
   background-color: rosybrown;
+  position: fixed;
+}
+header span {
+  float: right;
+  margin: 20px 20px;
+}
+header a {
+  text-decoration: none;
+  color: black;
 }
 footer {
   background-color: rosybrown;
+  position: fixed;
+}
+footer p {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  clear: both;
+  margin-bottom: 0;
+}
+.contact-us {
+  float: left;
+  margin-left: 14px;
+  margin-top: 20px;
+}
+.contact-us a {
+  text-decoration: none;
+  color: black;
+}
+.social {
+  float: right;
+  margin-top: 20px;
 }
 .content form {
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
@@ -29,4 +60,20 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.search-bar input {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 50%;
+}
+
+.view-more {
+  text-align: center;
 }
